@@ -18,14 +18,14 @@ QUE SE ELIJA PARA LA ACTIVIDAD. Los parametros que deben pasarsele son: *mes int
                                                                         *ponderador float).
 
 Aún no se definio si se construiran los ponderadores en base a un criterio particular, si se utilizarán los anteriores, etc.
-Las tablas auxuliares (calendarios, franjas horarias,etapas de la cuarentena, zonas y corredores comerciales inhabilitados) se encuentran en el esquema
+Las tablas auxiliares (calendarios, franjas horarias,etapas de la cuarentena, zonas y corredores comerciales inhabilitados) se encuentran en el esquema
 Transitabilidad en el POSTGRES compartido.
 
 Aún  (26/10/2020)no he vinculado estos resultados con las calles con el indicador sube, en caso que se realice agregare las consideraciones 7 querys pertinentes.
 
 
 Espero no haber sido abrumadora. Intente ser lo mas clara y concreta posible. 
-Si tenés dudas me podes escribir a florasolpalacio@gmail.com.
+Si tenés dudas me podes escribir a florsolpalacio@gmail.com.
 
 Exitos y buena vida (✿ ͡❛ ͜ʖ ͡❛)!!
 

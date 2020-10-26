@@ -1,3 +1,6 @@
+/*Esta tabla lo que hace es armar un calendario, por dia y franja horaria para poder asignarle a posterios un 
+ponderador. La estructura de la tabla final esta adjunta en un .png*/
+
 with
 calendario as(
 			SELECT pk_fecha, dia_semana, 
@@ -17,5 +20,5 @@ comercios as (
 select * 
 from calendario,
 franjas_horarias,comercios
-where categoria not in ('en_obra','S/D','"comercial_neg"')
+where categoria not in ('en_obra','S/D','comercial_neg')
 order by pk_fecha,franja, categoria

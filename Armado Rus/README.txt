@@ -1,7 +1,7 @@
 BUENAS COMO VA? 
 SI ESTAS LEYENDO ESTO ES PORQUE RETOMARÁS/USARAS COMO MODELO, O AL MENOS TE SERVIRÁ COMO ANTECEDENTE LO QUE REALICE ENTORNO A LA ACTUALIZACIÓN DE RUS.
 TE DESEO SUERTE Y QUE NO DECAIGA (っ ͡❛ ͜ʖ ͡❛)っ🎔
-TE CUENTO UN POCO QUE VAS A ENCONSTRARTE ACÁ:
+TE CUENTO UN POCO QUE VAS A ENCONTRARTE ACÁ:
 *001_clasificacion_actividades*: CONTIENE UN DICCIONARIO CON LAS DISTINTAS RAMAS  DE ACTIVIDADES QUE APARECEN EN EL RUS. A CADA ACTIVIDAD SE LA CLASIFICO 
 SEGUN SU ACTIVIDAD. EN CASO DE AGREGAR UN RUBRO O QUERER INCLUIR UNA RAMA DENTRO DE UNA ACTIVIDAD YA EXISTENTE, SOLO DEBES HACER UN APPEND EN EL DICCIONARIO.
 ADEMÁS DE CLASIFICAR LAS ACTIVIDADES, LA FUNCIÓN CREA UNA TABLA EN Postgres (tené en cuenta de cambiar los datos de conexión). Esta tabla tendra el id del elemento,
@@ -21,7 +21,7 @@ Aún no se definio si se construiran los ponderadores en base a un criterio part
 Las tablas auxiliares (calendarios, franjas horarias,etapas de la cuarentena, zonas y corredores comerciales inhabilitados) se encuentran en el esquema
 Transitabilidad en el POSTGRES compartido.
 
-Aún  (26/10/2020)no he vinculado estos resultados con las calles con el indicador sube, en caso que se realice agregare las consideraciones 7 querys pertinentes.
+Aún  (26/10/2020)no he vinculado estos resultados con las calles con el indicador sube, en caso que se realice agregare las consideraciones/querys pertinentes.
 
 
 Espero no haber sido abrumadora. Intente ser lo mas clara y concreta posible. 

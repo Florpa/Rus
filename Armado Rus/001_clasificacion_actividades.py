@@ -1,3 +1,6 @@
+'''Este Script lo que hace es tomar la tabla de Rus 2017 y clasificar los comercios segun las actividades segun el diccionario que se elaboro
+e insertarlas en una tabla dentro del Postgres transitabilidad.comercios_rus. Lo importante es que los comercios tengan un 
+id unico con el cual se puedan vincular luego'''
 import psycopg2
 import sys
 import datetime
@@ -5,14 +8,15 @@ import datetime
 
 # Abre la coneccion y la request
 #van los datos de la BBDD a utilizar, en caso de usar el de Postgres compartido, cambiar los datos 
-connection = psycopg2.connect(user="postgres",
-                              password="chirus2020",
-                              host="localhost",
-                              port="5433",
-                              database="postgres")
+connection = psycopg2.connect(user="postgres@godatos",
+                              password="datoscimmit1234$",
+                              host="godatos.postgres.database.azure.com",
+                              port="5432",
+                              database="telecom")
 
 cur = connection.cursor()
 print("conectado")
+
 #esta tabla es la que desacargas de BADATA RUS 2017, solo se necesitan estos campos, por ahora.
 cur.execute ('SELECT id,subrama FROM transitabilidad.rus order by id')
 rows= cur.fetchall()

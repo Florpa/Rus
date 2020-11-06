@@ -1,20 +1,20 @@
 /*Esta tabla lo que hace es armar un calendario, por dia y franja horaria para poder asignarle a posterios un 
 ponderador. La estructura de la tabla final esta adjunta en un .png*/
-
+create table public.calendario_actividades_ponderadores as 
 with
 calendario as(
 			SELECT pk_fecha, dia_semana, 
 			        dia_semana_nombre,dia, mes,feriado,cuatrimestre, trimestre
-            FROM telecom.calendario_2020
+            FROM public.calendario_2020
             order by fecha),
 franjas_horarias as (
             select franja,descripcion
             from 
-            transitabilidad.franjas_horarias
+           public.franjas_horarias
             order by franja),
 comercios as (
             select distinct (categoria), null::float as pond
-            from transitabilidad.comercios_rus)
+            from public.comercios_clasificados_rus)
 					
 
 select * 
